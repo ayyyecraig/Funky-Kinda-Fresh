@@ -37,6 +37,10 @@ I will be starting from the backend, building a server making sure I have someth
 
  https://trello.com/b/NyQeQf6x/funky-kinda-fresh
 
+https://lucid.app/lucidchart/cb6c9005-1125-40dc-b736-29116fd81335/edit?beaconFlowId=B5DB0165C69D16D2&invitationId=inv_933ab5a2-5dff-49f2-8019-4ff112c88ed9&page=0_0#
+
+## My Idea 
+<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/QSCsPRerrAznVnLDyhSwis"></iframe>
 
 
  #### Resources and Credits
