@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 //  res.json(foundFerms)
 // })
 
-app.get('/FermentController',
+app.get('/FermNat',
 FermentController.getFerments)
 
 app.listen(PORT, () => {

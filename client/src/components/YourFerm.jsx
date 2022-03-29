@@ -13,19 +13,39 @@ import React, { useState } from 'react';
       setUser(e.target.value);
     }
   
+  let fermtype = [
+    {label: "Lactic Acid", value: "Lactic Acid" },
+    {label: " Ethanol", value: "Ethanol"},
+    {label: "Acetic Acid", value: "Acetic Acid"}
+  ]
+
+  const [ferm, setFerm] = useState("");
+  const handleChange = (e) => {
+    console.log(e.target.value)
+    setUser(e.target.value)
+  }
+
+  let perservative = [
+    { type: "text-area", value: ""}
+  ]
+
     return (
       <div className='YourFerm'>
-       <h1>Which service are you interested in?</h1>
-       <ul
-          onChange={handleSelect}
-          action="https://jsonplaceholder.typicode.com/posts">
-          <ls selected value="Click to see options" />
-          <ls value="user123" />
-          <ls value="becky219" />
-          <ls value="heffany49" />
-        </ul>
-        <p>You selected {user} </p>
+      <select className='name' onChange={handleSelect}>
+        <option value="">--User--</option>
+        {users.map((user) =>
+        <option value={user.value}>{user.label}</option>)}
+        <option></option>
+      </select>
+      <select className='type'>
+        <option>Ferment Type</option>
+        {fermtype.map((ferm) =>
+        <option value={ferm.value}>{ferm.label}</option>)}
+      </select>
     
+      <button className='btn'>Submit</button>
+
+  
       </div>
     )
     }

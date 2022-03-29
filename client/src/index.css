@@ -20,3 +20,8 @@
   align-content: flex-start;
   
 }
+
+.YourFerm{
+  display: grid;
+  justify-content: center;
+}
