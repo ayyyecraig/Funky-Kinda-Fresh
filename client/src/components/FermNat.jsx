@@ -6,14 +6,14 @@ import axios from 'axios'
 
   const FermNat = () => {
     const [ferments, setFerments] = useState([])
-    const [fermentName, setFermentName] = useState([])
+    const [ name, setFermentName] = useState([])
     const [fermImg, setFermImg] = useState([])
     const [fermDesc, setFermDesc] = useState([])
     const [fermType, setFermType] = useState([])
 
     useEffect(() => {
       
-      let fermentNameArr = []
+      let nameArr = []
       let fermImgLinkArr= []
       let fermDescArr= []
       let fermTypeArr= []
@@ -24,13 +24,13 @@ import axios from 'axios'
         setFerments(res.data)
 
         ferments.map((ex) =>{
-          fermentNameArr.push(ex.name)
+         nameArr.push(ex.name)
           fermImgLinkArr.push(ex.img)
           fermDescArr.push(ex.description)
           fermTypeArr.push(ex.typeFerment)
         })
 
-        setFermentName(fermentNameArr)
+        setFermentName(nameArr)
         setFermImg(fermImgLinkArr)
         setFermDesc(fermDescArr)
         setFermType(fermTypeArr)
@@ -44,13 +44,13 @@ import axios from 'axios'
         <ul className="FermentGrid">
           <li>
             <img src={fermImg[0]} alt="pic1" className="img"/>
-            <h4>{fermentName[0]}</h4>
+            <h4>{name[0]}</h4>
             <h5>{fermType[0]}</h5>
             <p>{fermDesc[0]}</p>
           </li>
           <li>
           <img src={fermImg[1]} alt="pic2" className="img"/>
-            <h4>{fermentName[1]}</h4>
+            <h4>{name[1]}</h4>
             <h5>{fermType[1]}</h5>
             <p>{fermDesc[1]}</p>
           </li>
