@@ -1,0 +1,15 @@
+@import url('');
+
+:root{
+  background-color: rgba(208, 172, 9, 0.082);
+  font-family: 'The Girl Next Door', cursive;
+}
+.navbar{
+  background-color: rgb(114 182 184);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  font-size: 30px;
+}
+
