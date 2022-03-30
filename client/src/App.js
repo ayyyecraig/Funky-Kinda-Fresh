@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Nav from './components/Nav'
-import YourFerm from './components/YourFerm'
+import FermentForm from './components/FermentForm'
 import FermNat from './components/FermNat'
 import Home from './components/Home'
 import RecipeFeed from './components/RecipeFeed'
@@ -14,7 +14,7 @@ export default function App() {
     <main>
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/YourFerm' element={<YourFerm />} />
+      <Route path='/YourFerm' element={<FermentForm />} />
       <Route path='/FermNat' element={<FermNat />} />
       <Route path ='/RecipeFeed' element={<RecipeFeed />} />
     </Routes>

@@ -3,12 +3,12 @@ const cors = require('cors')
 const logger = require('morgan')
 const PORT = process.env.PORT || 3001
 const db = require('./db')
-const FermentController = require('./controllers/FermentController.js')
 const app = express()
-const YourFermController = require('./controllers/YourFermController.js')
-const { Ferment, Review } = require('./models')
-app.use(cors())
 
+const { Ferment, Review } = require('./models')
+
+
+app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(logger('dev'))
@@ -17,10 +17,10 @@ app.get('/', (req, res) => {
   res.send('This is root!')
 })
 
+const FermentController = require('./controllers/FermentController.js')
 
 
-app.get('/FermNat',
-FermentController.getFerments)
+app.get('/FermNat', FermentController.getFerments)
 
 app.get('/reviews', (req,res) => { 
   async function getReviews() {
@@ -31,7 +31,7 @@ app.get('/reviews', (req,res) => {
   getReviews()
 } )
 
-app.post('/FermNat', Ferment.postNew)
+app.post('/ferments', FermentController.postNew)
 
 app.listen(PORT, () => {
   console.log(`Express server listening on port ${PORT}`)

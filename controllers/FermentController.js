@@ -1,6 +1,5 @@
-const res = require('express/lib/response')
+
 const  { Ferment }  = require('../models')
-const { request, response } = require
 
 const getFerments = async ( request, response) => {
    
@@ -8,7 +7,14 @@ const getFerments = async ( request, response) => {
     response.json(ferments)
 }
 
+const postNew = async (request, response) =>{
+    let newFerm = await new Ferment(request.body)
+       newFerm.save()
+     response.send(newFerm)  
+}
+   
 
 module.exports ={
-    getFerments
+    getFerments,
+    postNew
 }
