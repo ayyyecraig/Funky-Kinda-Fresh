@@ -4,8 +4,12 @@
   background-color: rgba(208, 172, 9, 0.082);
   font-family: 'The Girl Next Door', cursive;
 }
+
+body{
+  background-image: linear-gradient(to bottom left, #dbd2c3,#a58346 );
+}
 .navbar{
-  background-color: #6cba75;
+  background-color: #482f16;
   color: white;
   display: flex;
   justify-content: space-evenly;

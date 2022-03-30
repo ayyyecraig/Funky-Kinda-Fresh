@@ -37,6 +37,9 @@ import axios from 'axios'
           })}
       
         </ul>
+        <button class="manage">Manage</button>
+        <button class="delete">Delete</button>
+
       </div>
     )
   }

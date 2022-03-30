@@ -33,6 +33,11 @@ app.get('/reviews', (req,res) => {
 
 app.post('/ferments', FermentController.postNew)
 
+app.post('/ferments', FermentController.upDate)
+
+app.post('/ferments', FermentController.deleteFerm)
+
+
 app.listen(PORT, () => {
   console.log(`Express server listening on port ${PORT}`)
 })

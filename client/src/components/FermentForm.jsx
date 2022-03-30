@@ -16,7 +16,6 @@ let fermtype = [
 ]
 
 function FermentForm() { 
-const [user, setUser] = useState("");
 const [ferment, setFerment] = useState({
   name: "",
   typeFerment: "",
@@ -48,12 +47,6 @@ const handleSubmit = (e) => {
   return (
     <div className='YourFerm'>
       <form onSubmit={handleSubmit}>
-        {/* <select className='name'>
-          <option value="">--User--</option>
-            {users.map((user) =>
-          <option value={user.value}>{user.label}</option>)}
-          <option></option>
-        </select> */}
         <select className='type' onChange={handleChange} name={"typeFerment"}>
           <option >Ferment Type</option>
             {fermtype.map((ferm) =>
