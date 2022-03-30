@@ -3,14 +3,14 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
  
 
- function YourFerm(props) {
+ function YourFerm() {
   let navigate = useNavigate();
   const handleSubmit = (e) => {
-    props.newFerm(e)
+
     navigate('/FermNat')
   }
   
-  const addFerm = props.addFerm
+ 
 
   let users = [
     {label: "user123", value: "user123"},
@@ -42,7 +42,7 @@ import { useNavigate } from 'react-router-dom';
 
 
     return (
-      <div className='YourFerm'>
+      <div className='YourFerm' k>
         <form onSubmit={ handleSubmit}>
           <select className='name' onChange={handleSelect}>
             <option value="">--User--</option>
@@ -56,7 +56,7 @@ import { useNavigate } from 'react-router-dom';
             <option value={ferm.value}>{ferm.label}</option>)}
            </select>
           <input value={perserve.value}>{perserve.label}</input>
-          <input value={addFerm} onChange={props.handleChange}></input>
+          <input value={perserve.value} onChange={handleChange}></input>
           <button className='btn'>Submit</button>
        </form>
       </div>

@@ -13,13 +13,10 @@ const postNew = async (
        
         request.json(newFerm)
         response.json(ferment)
+        newFerm.save()
     }
-    // const main = async () => {
-    //     const brand1 = await new Brand({
-    //       name: 'Apple',
-    //       url: 'https://www.apple.com'
-    //     })
-    //     brand1.save()
+   
+
 
     module.exports ={
         postNew
