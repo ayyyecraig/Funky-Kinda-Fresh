@@ -23,6 +23,9 @@ app.get('/', (req, res) => {
 app.get('/FermNat',
 FermentController.getFerments)
 
+app.post('/')
+// app.post('/FermNat', AddingNew.postNew)
+
 app.listen(PORT, () => {
   console.log(`Express server listening on port ${PORT}`)
 })

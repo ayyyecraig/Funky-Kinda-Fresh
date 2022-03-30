@@ -4,9 +4,9 @@ const Ferment = new Schema(
     {
         name:{ type: String, required: true },
         typeFerment:{ type: String, required: true },
-        img: { type: String, required: true },
+        img: { type: String, required: false },
         perserve: { type: String, required: false },
-        description: { type: String, required: true }
+        description: { type: String, required: false}
     },
     { timestamps: true}
 )

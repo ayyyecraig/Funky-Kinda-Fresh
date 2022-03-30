@@ -5,8 +5,7 @@ const AddYour = new Schema(
     {
        users: { type: String, required: true },
        fermentType: { type: String, required: true },
-       perservative: { type: String, required: true },
-       feed: { type: String, required: false },
+       perservative: { type: String, required: false},
        notes: { type: String, required: false }
     },
     { timestamps: true }

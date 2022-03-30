@@ -31,7 +31,7 @@ import axios from 'axios'
                 <img src={ferment.img} className="img" />
                 <h4>{ferment.name}</h4>
                 <h5>{ferment.typeFerment}</h5>
-                <p>{ferment.fermDesc}</p>
+                <p>{ferment.description}</p>
               </li>
             )
           })}
