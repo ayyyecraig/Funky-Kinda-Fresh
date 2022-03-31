@@ -21,6 +21,7 @@ import { Link } from 'react-router-dom'
 
       getFerments()
     }, [])
+    
     const deleteFerm = (ferm) =>{
       //send axios delete, request to endpoint + ferm
     }

@@ -26,7 +26,7 @@ const upDate = async (request, response) =>{
     return res.status(500).json(err)
 }}
 
-const deleteFerm = async (request, response) =>{
+const deleteFerm = async (req, res) =>{
     try{
     const { id } = req.params;
     let deleted = await Ferment.findByIdAndDelete(id)
@@ -37,6 +37,7 @@ const deleteFerm = async (request, response) =>{
     } catch (err) {
       return res.status(500).send(error.message);
     }
+    
 }
 
 

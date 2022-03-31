@@ -33,10 +33,9 @@ app.get('/reviews', (req,res) => {
 
 app.post('/ferments', FermentController.postNew)
 
-app.post('/ferments', FermentController.upDate)
+app.put('/ferments/:id', FermentController.upDate)
 
-app.post('/ferments/:id', FermentController.deleteFerm)
-
+app.delete('/ferments/:id', FermentController.deleteFerm)
 
 app.listen(PORT, () => {
   console.log(`Express server listening on port ${PORT}`)
