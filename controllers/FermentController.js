@@ -18,12 +18,12 @@ const postNew = async (request, response) =>{
 
 const upDate = async (request, response) =>{
     try{
-    let updateFerm = await Ferment.findByIdAndUpdate(request.params.id, req.body, {
+    let updateFerm = await Ferment.findByIdAndUpdate(request.params.id, request.body, {
         new: true
     })
     return response.status(200).json(updateFerm)
 } catch (err) {
-    return res.status(500).json(err)
+    return response.status(500).json(err)
 }}
 
 const deleteFerm = async (req, res) =>{

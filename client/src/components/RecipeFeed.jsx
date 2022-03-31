@@ -10,7 +10,7 @@ const [reviews, setReviews] = useState([])
 
         const getReviews = async () => {
             
-            let res = await axios.get('http://localhost:3001/RecipeFeed')
+            let res = await axios.get('http://localhost:3001/reviews')
             console.log(res.data)
             setReviews(res.data)
         }

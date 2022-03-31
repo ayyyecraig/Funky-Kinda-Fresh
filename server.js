@@ -33,7 +33,7 @@ app.get('/reviews', (req,res) => {
 
 app.post('/ferments', FermentController.postNew)
 
-app.put('/ferments/:id', FermentController.upDate)
+app.put('/FermNat/:id', FermentController.upDate)
 
 app.delete('/ferments/:id', FermentController.deleteFerm)
 
