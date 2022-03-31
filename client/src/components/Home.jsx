@@ -32,6 +32,10 @@ export default function home() {
           src="https://cdn-japantimes.com/wp-content/uploads/2017/08/p14-itoh-nukadoko-a-20170820-870x653.jpg"
           alt="logo" className='p5' />
         </div>
+        <div>
+          <img style={{display:'block', maxWidth:'50%'}} src="https://fthmb.tqn.com/x5GBzI3BYLpDk24XSgu9Tq_lfeA=/2121x1414/filters:fill(auto,1)/GettyImages-567585783-5825bff75f9b58d5b1cee954.jpg" alt='logo'
+          className='p6' />
+        </div>
        <div className='video'>
           <YoutubeEmbed embedId='gYksTBZUMl4' />
        </div>

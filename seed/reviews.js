@@ -9,7 +9,7 @@ const main = async () => {
 
   const reviews = [
     {
-        users: "becky219",
+        users: "Victor29",
         fermentType:"acetic",
         review: "sjeiojudhw",
         ferment_id:ferments[0]._id
@@ -19,7 +19,7 @@ const main = async () => {
     {
         users: "becky213",
         fermentType:"acetic",
-        review: "sjeiojudhw",
+        review: "Here This Is",
         ferment_id:ferments[1]._id
     },
     {

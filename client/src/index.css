@@ -1,29 +1,28 @@
-@import url('');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@700&family=Comfortaa:wght@300&family=Freehand&family=The+Girl+Next+Door&display=swap');
 
 :root{
-  background-image: linear-gradient(to bottom left, #dbd2c3,#a58346 );
+  background-image: linear-gradient(to bottom left, #375b41,black);
   background-repeat: initial;
   background-size: cover;
-  font-family: 'The Girl Next Door', cursive;
+  font-family: 'Comfortaa', cursive, sans-serif;
+  color:#caa577;
 }
 
 
-
+/* navBar */
 .navbar{
-  background-color: #c28a65;
-  color: white;
+  background-color: transparent;
   display: flex;
   justify-content: space-evenly;
   height: 40px;
   font-size: 30px;
- 
+  
  
 }
 
 .navbar a{
-  color:#505965;
-  text-decoration: none;
-  
+ text-decoration: none;
+  color: white;
 }
 
 .navbar :visited{
@@ -34,25 +33,28 @@
   color: inherit;
 }
 
+/* 
+fermentationNation */
 
 .FermentGrid{
-  display: grid;
   grid-row: inherit;
   list-style: none;
- 
+  color: #caa577;
  
 }
-
-
 
 .ferments{
   display: grid;
   column-count: 3;
+  background-color: rgba(93 85 77);
+  max-width: fit-content;
 }
 
 .img2{
   max-width: 318px;
   max-height: 363px;
+  position: relative;
+  right: -55px;
 }
 
 .ptext{
@@ -62,10 +64,29 @@
 .img{
   max-width:fit-content;
   margin: 0px, 5px;
+  position: relative;
   
+}
+.manage{
+  border: none;
+  background-color: #6c7841;
+  color: #caa577;
+  position:relative;
+  left: 255px;
+  top: -166px;
+}
+
+.delete{
+  border: none;
+  background-color: #6c7841;
+  color: #caa577;
+  margin-left: 270px;
+  position: relative;
+  top: -166px;
 }
 
 
+/* home */
 .home{
   display: grid;
    row-gap: 5px;
@@ -94,43 +115,49 @@
     grid-row-start: 1;
     grid-row-end: 2;
     position: relative;
-    top: 80px;
-    left: 97px;
+    top: 49px;
+    left: 143px;
 
 }
 
 .p1{
   position: relative;
-  left: 2px;
-  top: 7px;
+  left: 38px;
+  top: 70px;
 }
 
 .p2{
   position: relative;
-  left: -1px;
-  top: -159px;
+  left: 34px;
+  top: -25px;
 }
 
 
 .p3{
   position: relative;
-  left: -466px;
-  top: -38px;
+  left: -389px;
+  top: 123px;
 
 }
 
 .p4{
   position: relative;
-  left: -1px;
-  top: -196px;
+  left: 37px;
+  top: -12px;
 }
 
 .p5{
   position: relative;
-  left: -443px;
-  top: -687px;
+  left: -393px;
+  top: -576px;
 }
 
+.p6{
+  position: relative;
+  left: 1102px;
+  top: -469px;
+}
+/* add your own ferment recipe/ update */
 .YourFerm{
   display: grid;
   height: 100vh;
@@ -143,8 +170,9 @@
 
 select{
 position: relative;
-
-width: 500px;
+margin-bottom: 15px;
+padding-bottom: 5px;
+width: 130px;
 }
 
 .btn{
@@ -155,21 +183,18 @@ width: 500px;
   
 }
 
-.manage{
-  border: none;
-  background-color: #505965;
-  color: white;
-}
-
-.delete{
-  border: none;
-  background-color: #505965;
-  color: white;
-}
-
-
 h1{
-  width: max-content;
+  width:2px;
+  position: relative;
+  left: -311px;
+  top: 48px;
+}
+
+form{
+  position: relative;
+  top: -279px;
+  left:-121px;
+ 
 }
 
 input{
@@ -181,4 +206,8 @@ input{
   height:400px;
  
 }
+
+
+/* reviews page Recipe feedback */
+
 
