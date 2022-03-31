@@ -52,7 +52,7 @@ const handleSubmit = (e) => {
         <input type="text" value={ferment.perserve} onChange={handleChange} name={'perserve'} placeholder={'perservatives and percentages'} />
         <h4>The Process</h4>
         <input type="text" value={ferment.description} onChange={handleChange} name={'description'}  className="description" />
-        <input type="text" value={ferment.img} onChange={handleChange} name={'img'} placeholder={'Images'} />
+        <input type="url" value={ferment.img} onChange={handleChange} name={'img'} placeholder={'Images'} />
         
         <button className='btn'>Submit</button>
       </form>

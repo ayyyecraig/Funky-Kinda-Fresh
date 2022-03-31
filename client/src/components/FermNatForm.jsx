@@ -45,8 +45,8 @@ const handleChange = (e) => {
 
 
 return (
-    <div className='YourFerm'>
-    <div>Update This Recipe</div>
+    <div className='YourFermupdate'>
+    <div className='updateRecipe'>Update This Recipe</div>
     <form onSubmit={handleSubmit}>
         <select className='type' onChange={handleChange} name={"typeFerment"}>
           <option >Ferment Type</option>

@@ -36,12 +36,7 @@
 /* 
 fermentationNation */
 
-.FermentGrid{
-  grid-row: inherit;
-  list-style: none;
-  color: #caa577;
- 
-}
+
 
 .ferments{
   display: grid;
@@ -90,6 +85,8 @@ fermentationNation */
 .home{
   display: grid;
    row-gap: 5px;
+   flex-wrap: wrap;
+
   
 }
 
@@ -115,49 +112,65 @@ fermentationNation */
     grid-row-start: 1;
     grid-row-end: 2;
     position: relative;
-    top: 49px;
-    left: 143px;
+    top: 19px;
+    left: 106px;
 
 }
 
 .p1{
   position: relative;
-  left: 38px;
+  left: -5px;
   top: 70px;
+  max-width: 602px;
 }
 
 .p2{
   position: relative;
-  left: 34px;
-  top: -25px;
+  left: 399px;
+  top: -254px;
+  max-width: 685px;
 }
 
 
 .p3{
   position: relative;
-  left: -389px;
-  top: 123px;
-
+  left: -554px;
+  top: 204px;
+  max-width: 573px;
 }
 
 .p4{
   position: relative;
-  left: 37px;
-  top: -12px;
+  left: 881px;
+  top: -291px;
+  max-width: 560px;
 }
 
 .p5{
   position: relative;
-  left: -393px;
-  top: -576px;
+  left: -1076px;
+  top: -314px;
+  max-width: 614px;
 }
 
 .p6{
   position: relative;
-  left: 1102px;
-  top: -469px;
+  left: 1295px;
+  top: -598px;
+  max-width: 597px;
 }
 /* add your own ferment recipe/ update */
+
+.FermentGrid{
+  display: flex;
+  flex-direction: row  row-reverse column column-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  position: relative;
+  top:52px;
+  
+}
 .YourFerm{
   display: grid;
   height: 100vh;
@@ -165,6 +178,7 @@ fermentationNation */
   gap: 20px;
   justify-content: space-around;
   overflow: auto;
+
  
 }
 
@@ -207,7 +221,22 @@ input{
  
 }
 
+/* update */
 
+.YourFermupdate{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 200px;
+  gap: 20px;
+  justify-content: space-around;
+  overflow: auto;
+  position: relative;
+  top: 81px;
+}
+
+.updateRecipe{
+  padding-bottom: 176px;
+}
 /* reviews page Recipe feedback */
 
 
