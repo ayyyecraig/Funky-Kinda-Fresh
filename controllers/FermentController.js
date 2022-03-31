@@ -1,4 +1,7 @@
 
+const { response } = require('express')
+const res = require('express/lib/response')
+const { json } = require('express/lib/response')
 const  { Ferment }  = require('../models')
 
 const getFerments = async ( request, response) => {
@@ -12,9 +15,34 @@ const postNew = async (request, response) =>{
        newFerm.save()
      response.send(newFerm)  
 }
-   
+
+const upDate = async (request, response) =>{
+    try{
+    let updateFerm = await Ferment.findByIdAndUpdate(request.params.id, req.body, {
+        new: true
+    })
+    return response.status(200).json(updateFerm)
+} catch (err) {
+    return res.status(500).json(err)
+}}
+
+const deleteFerm = async (request, response) =>{
+    try{
+    const { id } = req.params;
+    let deleted = await Ferment.findByIdAndDelete(id)
+    if (deleted) {
+        return res.status(200).send("deleted");
+    }
+    throw new Error("Not found");
+    } catch (err) {
+      return res.status(500).send(error.message);
+    }
+}
+
 
 module.exports ={
     getFerments,
-    postNew
+    postNew,
+    upDate,
+    deleteFerm
 }

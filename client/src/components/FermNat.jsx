@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
  
 
@@ -20,30 +21,37 @@ import axios from 'axios'
 
       getFerments()
     }, [])
+    const deleteFerm = (ferm) =>{
+      //send axios delete, request to endpoint + ferm
+    }
+  
 
     return(
       <div>
         <ul className="FermentGrid">
           {ferments.map((ferment, idx) =>{
             return(
-              <li key={idx}>
+              <div className="Grid">
+              <li className="ferments" key={idx}>
       
                 <img src={ferment.img} className="img" />
                 <h4>{ferment.name}</h4>
                 <h5>{ferment.typeFerment}</h5>
                 <p>{ferment.description}</p>
               </li>
+              <Link to={`/FermNat/${ferment._id}/update`}><button className="manage"  >Manage</button></Link>
+              <button className="delete" onClick={()=> deleteFerm(ferment._id)}>Delete</button>
+        </div>
             )
           })}
       
         </ul>
-        <button class="manage">Manage</button>
-        <button class="delete">Delete</button>
+       
 
       </div>
     )
   }
-  
+
 
 
 export default FermNat

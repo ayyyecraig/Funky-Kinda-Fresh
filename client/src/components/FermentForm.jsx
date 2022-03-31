@@ -2,12 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios'
 
-//This is the user data
-let users = [
-  {label: "user123", value: "user123"},
-  {label: "becky219", value: "becky219"},
-  {label: "heffany49", value: "heffany49"}
-]
+
 // These are the ferment types
 let fermtype = [
   {label: "Lactic Acid", value: "Lactic Acid" },

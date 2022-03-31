@@ -1,31 +1,124 @@
 @import url('');
 
 :root{
-  background-color: rgba(208, 172, 9, 0.082);
+  background-image: linear-gradient(to bottom left, #dbd2c3,#a58346 );
+  background-repeat: initial;
   font-family: 'The Girl Next Door', cursive;
 }
 
-body{
-  background-image: linear-gradient(to bottom left, #dbd2c3,#a58346 );
-}
+
+
 .navbar{
-  background-color: #482f16;
+  background-color: #c28a65;
   color: white;
   display: flex;
   justify-content: space-evenly;
   height: 40px;
   font-size: 30px;
+ 
+ 
+}
+
+.navbar a{
+  color:#505965;
+  text-decoration: none;
+  
+}
+
+.navbar :visited{
+  color:#dbd2c3
+}
+
+.navbar :active{
+  color: inherit;
 }
 
 
 .FermentGrid{
-  display: flex;
-  flex-direction: column-reverse;
-  align-content: flex-start;
-  
+  display: grid;
+  grid-row: inherit;
+  list-style: none;
+ 
+ 
 }
 
 .YourFerm{
   display: grid;
   justify-content: center;
+}
+
+.ferments{
+  display: flex;
+}
+
+.img{
+  max-width:fit-content;
+
+  margin: 0px, 5px;
+  
+}
+
+.home{
+  display: grid;
+   row-gap: 5px;
+  
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.video{
+  max-width: 772px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: relative;
+    top: 137px;
+    left: 162px;
+
+}
+
+.p1{
+  position: relative;
+  left: 2px;
+  top: 7px;
+}
+
+.p2{
+  position: relative;
+  left: -1px;
+  top: -159px;
+}
+
+
+.p3{
+  position: relative;
+  left: -466px;
+  top: -38px;
+
+}
+
+.p4{
+  position: relative;
+  left: -1px;
+  top: -196px;
+}
+
+.p5{
+  position: relative;
+  left: -443px;
+  top: -687px;
 }
