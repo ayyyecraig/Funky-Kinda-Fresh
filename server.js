@@ -9,6 +9,7 @@ const { Ferment, Review } = require('./models')
 
 
 app.use(cors())
+app.use(express.static(`${__dirname}/client/build`))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(logger('dev'))
@@ -37,6 +38,10 @@ app.put('/FermNat/:id', FermentController.upDate)
 
 app.delete('/ferments/:id', FermentController.deleteFerm)
 
+
+app.get('/*', (req, res) => {
+  res.sendFile(`${__dirname}/client/build/index.html`)
+ })
 app.listen(PORT, () => {
   console.log(`Express server listening on port ${PORT}`)
 })
