@@ -35,7 +35,7 @@ app.post('/ferments', FermentController.postNew)
 
 app.post('/ferments', FermentController.upDate)
 
-app.post('/ferments', FermentController.deleteFerm)
+app.post('/ferments/:id', FermentController.deleteFerm)
 
 
 app.listen(PORT, () => {
