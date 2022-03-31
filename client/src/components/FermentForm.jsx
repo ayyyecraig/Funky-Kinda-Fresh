@@ -41,6 +41,7 @@ const handleSubmit = (e) => {
 
   return (
     <div className='YourFerm'>
+      <h1 className='headline'>Add Your Favorite Recipe!</h1>
       <form onSubmit={handleSubmit}>
         <select className='type' onChange={handleChange} name={"typeFerment"}>
           <option >Ferment Type</option>
@@ -48,8 +49,9 @@ const handleSubmit = (e) => {
           <option value={ferm.value}>{ferm.label}</option>)}
         </select>
         <input type="text" value={ferment.name} onChange={handleChange} name={'name'} placeholder={'name'} />
-        <input type="text" value={ferment.perserve} onChange={handleChange} name={'perserve'} placeholder={'perserve'} />
-        <input type="text" value={ferment.description} onChange={handleChange} name={'description'} placeholder={'description'} />
+        <input type="text" value={ferment.perserve} onChange={handleChange} name={'perserve'} placeholder={'perservatives and percentages'} />
+        <h4>The Process</h4>
+        <input type="text" value={ferment.description} onChange={handleChange} name={'description'}  className="description" />
         <input type="text" value={ferment.img} onChange={handleChange} name={'img'} placeholder={'Images'} />
         
         <button className='btn'>Submit</button>

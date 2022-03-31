@@ -3,6 +3,7 @@
 :root{
   background-image: linear-gradient(to bottom left, #dbd2c3,#a58346 );
   background-repeat: initial;
+  background-size: cover;
   font-family: 'The Girl Next Door', cursive;
 }
 
@@ -132,6 +133,7 @@
 
 .YourFerm{
   display: grid;
+  height: 100vh;
   grid-template-columns: 200px;
   gap: 20px;
   justify-content: space-around;
@@ -141,13 +143,15 @@
 
 select{
 position: relative;
-left: 21px;
+
+width: 500px;
 }
 
 .btn{
   border: none;
   background-color: #505965;
   color: white;
+  border-radius: 10%;
   
 }
 
@@ -162,3 +166,19 @@ left: 21px;
   background-color: #505965;
   color: white;
 }
+
+
+h1{
+  width: max-content;
+}
+
+input{
+  width: 500px;
+  height: 30px;
+}
+
+.description{
+  height:400px;
+ 
+}
+
