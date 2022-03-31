@@ -4,37 +4,30 @@ import YoutubeEmbed from './Videos'
 export default function home() {
   return (
     <div className="home">
-        <div>
-            <img style={{display: 'block'}}
-            src="https://upserve.com/media/sites/2/farm-to-table-vegetables-1100x600.jpg"
-            alt="logo" className='p1'
-            />
-         </div>  
+          <a class="social-icon" href="https://www.instagram.com/wolfandthefoxdinners/" target="_blank">
+            Wolf And The Fox <ion-icon name="logo-instagram"></ion-icon> </a>
           <div>
-              <img style={{display: 'block'}}
-             src="http://www.kilzerskitchen.co.za/images/blog/august2012/fish.jpg"
-             alt="logo" className='p2'
-             />
+             <a href="https://imgur.com/6ryuo4f"><img style={{display: 'block'}} src="https://i.imgur.com/6ryuo4f.jpg" title="source: imgur.com" alt="logo" className='p1'/></a>
+        </div>
+        <div>
+          <a href="https://imgur.com/EOlEhHX"><img src="https://i.imgur.com/EOlEhHX.jpg" title="source: imgur.com" alt="logo" className='p2' /></a>
         </div>
          <div>
-             <img style={{display: 'block'}}
-             src="https://upserve.com/media/sites/2/bigstock-Vegetable-Market-19473113-1100x600-3.jpg?5fcdd705667b4"
+         <a href="https://imgur.com/MI4yqq7"><img src="https://i.imgur.com/MI4yqq7.jpg" title="source: imgur.com" 
              alt="logo" className='p3'
-             />
+             /></a>
         </div>
         <div>
-          <img style={{display: 'block'}}
-          src="https://d1hbl61hovme3a.cloudfront.net/assets_us/louisiana-style-hot-sauce.jpg"
-          alt="logo" className='p4' />
+        <a href="https://imgur.com/6NkyY3u"><img src="https://i.imgur.com/6NkyY3u.jpg" title="source: imgur.com" 
+          alt="logo" className='p4' /></a>
         </div>
         <div>
-          <img style={{display: 'block'}}
-          src="https://cdn-japantimes.com/wp-content/uploads/2017/08/p14-itoh-nukadoko-a-20170820-870x653.jpg"
-          alt="logo" className='p5' />
+        <a href="https://imgur.com/uuofK2w"><img src="https://i.imgur.com/uuofK2w.jpg" title="source: imgur.com"
+          alt="logo" className='p5' /></a>
         </div>
         <div>
-          <img style={{display:'block'}} src="https://fthmb.tqn.com/x5GBzI3BYLpDk24XSgu9Tq_lfeA=/2121x1414/filters:fill(auto,1)/GettyImages-567585783-5825bff75f9b58d5b1cee954.jpg" alt='logo'
-          className='p6' />
+        <a href="https://imgur.com/AaIoVwl"><img src="https://i.imgur.com/AaIoVwl.jpg" title="source: imgur.com"  alt='logo'
+          className='p6' /></a>
         </div>
        <div className='video'>
           <YoutubeEmbed embedId='gYksTBZUMl4' />
