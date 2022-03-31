@@ -26,7 +26,7 @@ const [ferments, setFerments] = useState({
 
 
 const updateFerments = async () => {
-    let updateFerment = await axios.update('http://localhost:3000/FermNat/:id/update', ferments)
+    let updateFerment = await axios.put(`http://localhost:3001/FermNat/${id}`, ferments)
     console.log(updateFerment)
 }
   
