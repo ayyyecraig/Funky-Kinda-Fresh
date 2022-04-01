@@ -5,9 +5,9 @@
 
  ![Sourdough Starter](https://2.bp.blogspot.com/-VnPymqeH3IE/Vo4AwiapjVI/AAAAAAAAKJQ/7QiP65mrvPgbS8q2gvdHCgZSy3noqb77ACPcB/s1600/1.jpg)
 
-###Build your own recipe
+### Build your own recipe
 ![Imgur](https://i.imgur.com/pWckdl0.png)
-####And See them Posted Immediatly
+#### And See them Posted Immediatly
 ![Imgur](https://i.imgur.com/v3wcjCV.png)
 
 ## Description
@@ -35,7 +35,7 @@ I will be starting from the backend, building a server making sure I have someth
 * Grid or flexbox to display photos of active fermentations
 
 
-###Future Projects
+### Future Projects
 * Adding a calculator for any percentages needed
 
 
