@@ -85,11 +85,9 @@ fermentationNation */
 .home{
    display: grid;
    flex-wrap: wrap;
-   overflow: auto;
-  
-
-  
+   overflow: auto; 
 }
+
 .social-icon{
   position: relative;
   top: 728px;
@@ -125,31 +123,25 @@ fermentationNation */
     position: relative;
     top: 47px;
     left: 78px;
-
 }
 
 .p1{
- 
   position: relative;
   left: -59px;
   top: -170px;
   max-width: 332px;
-
 }
 
 .p2{
- 
   position: relative;
   left: -558px;
   top: -387px;
   max-width: 263px;
-;
 
 }
 
 
 .p3{
-
   position: relative;
   left: 288px;
   top: -510px;
@@ -157,16 +149,13 @@ fermentationNation */
 }
 
 .p4{
-  
   position: relative;
   left: -50px;
   top: -386px;
   max-width: 314px;
- 
 }
 
 .p5{
- 
   position: relative;
   left: 1066px;
   top: -792px;
@@ -174,15 +163,12 @@ fermentationNation */
   
 }
 
-
 .p6{
   
     position: relative;
     left: -253px;
     top: -1205px;
     max-width: 258px;
- 
-
 }
 /* add your own ferment recipe/ update */
 
@@ -193,9 +179,9 @@ fermentationNation */
   align-content: center;
   justify-content: space-around;
   position: relative;
-  top:52px;
-  
+  top:52px; 
 }
+
 .YourFerm{
   display: grid;
   height: 100vh;
@@ -203,8 +189,6 @@ fermentationNation */
   gap: 130px;
   justify-content: space-around;
   overflow: auto;
-
- 
 }
 
 select{
@@ -232,8 +216,7 @@ h1{
 form{
   position: relative;
   top: -279px;
-  left:-121px;
- 
+  left:-121px; 
 }
 
 input{
@@ -243,7 +226,6 @@ input{
 
 .description{
   height:200px;
- 
 }
 
 /* update */
@@ -262,7 +244,8 @@ input{
 .updateRecipe{
   padding-bottom: 176px;
 }
-/* reviews page Recipe feedback */
+
+/* calculator */
 
 .guide{
   position: relative;

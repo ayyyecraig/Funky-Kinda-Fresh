@@ -40,9 +40,6 @@ const handleChange = (e) => {
     updateFerments()
   }
   
-  
-  
-
 
 return (
     <div className='YourFermupdate'>
