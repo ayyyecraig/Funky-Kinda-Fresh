@@ -5,9 +5,13 @@
 
  ![Sourdough Starter](https://2.bp.blogspot.com/-VnPymqeH3IE/Vo4AwiapjVI/AAAAAAAAKJQ/7QiP65mrvPgbS8q2gvdHCgZSy3noqb77ACPcB/s1600/1.jpg)
 
+###Build your own recipe
 ![Imgur](https://i.imgur.com/pWckdl0.png)
+####And See them Posted Immediatly
+![Imgur](https://i.imgur.com/v3wcjCV.png)
+
 ## Description
-The anaerobic breakdown of molecules has been perfected for more than 10,000 years; in recent years it has ***bubbled*** up into Michelin starred kitchens like [Noma](https://noma.dk/), as well as the homes filled during the covid-19 lockdowns. Being such delicate enviroments; they can easily harbor horrific smells, or give you a new spin on life (in some circles believed to treat cancer). That is where Funky Kinda Fresh comes in to assure your peace of mind and success in the amazing depths of fermentation. 
+The anaerobic breakdown of molecules has been perfected for more than 10,000 years; in recent years it has ***bubbled*** up into Michelin starred kitchens like [Noma](https://noma.dk/), as well as the homes filled during the covid-19 lockdowns baking loafs of amzing sourdough. Being such delicate enviroments; they can easily harbor horrific smells, or give you a new spin on life (in some circles believed to treat cancer). That is where Funky Kinda Fresh comes in to assure your peace of mind and success in the amazing depths of fermentation. 
 
 ## Features
 ### Lets easily calculate and store any data of your ferments to keep a running diary of all the types of Sourdoughs you've created
@@ -31,7 +35,9 @@ I will be starting from the backend, building a server making sure I have someth
 * Grid or flexbox to display photos of active fermentations
 
 
-![]
+###Future Projects
+* Adding a calculator for any percentages needed
+
 
 
  ### Trello Board && ERD 
@@ -40,10 +46,5 @@ I will be starting from the backend, building a server making sure I have someth
 
 https://lucid.app/lucidchart/cb6c9005-1125-40dc-b736-29116fd81335/edit?beaconFlowId=B5DB0165C69D16D2&invitationId=inv_933ab5a2-5dff-49f2-8019-4ff112c88ed9&page=0_0#
 
-## My Idea 
-https://whimsical.com/funky-kinda-fresh-QSCsPRerrAznVnLDyhSwis@2Ux7TurymN64Sfj6VapH
 
 
- #### Resources and Credits
-
-- https://duckduckgo.com/?va=b&t=hc
