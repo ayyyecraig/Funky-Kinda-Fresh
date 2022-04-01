@@ -7,7 +7,7 @@ export default function home() {
           <a class="social-icon" href="https://www.instagram.com/wolfandthefoxdinners/" target="_blank">
             Wolf And The Fox <ion-icon name="logo-instagram"></ion-icon> </a>
           <div>
-             <a href="https://imgur.com/6ryuo4f"><img style={{display: 'block'}} src="https://i.imgur.com/6ryuo4f.jpg" title="source: imgur.com" alt="logo" className='p1'/></a>
+             <a href="https://imgur.com/6ryuo4f"><img src="https://i.imgur.com/6ryuo4f.jpg" title="source: imgur.com" alt="logo" className='p1'/></a>
         </div>
         <div>
           <a href="https://imgur.com/EOlEhHX"><img src="https://i.imgur.com/EOlEhHX.jpg" title="source: imgur.com" alt="logo" className='p2' /></a>

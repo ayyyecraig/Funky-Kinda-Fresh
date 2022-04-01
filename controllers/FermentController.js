@@ -22,21 +22,22 @@ const upDate = async (request, response) =>{
         new: true
     })
     return response.status(200).json(updateFerm)
-} catch (err) {
+    } catch (err) {
     return response.status(500).json(err)
-}}
+      }
+}
 
 const deleteFerm = async (req, res) =>{
     try{
     const { id } = req.params;
     let deleted = await Ferment.findByIdAndDelete(id)
-    if (deleted) {
+     if (deleted) {
         return res.status(200).send("deleted");
-    }
+     }
     throw new Error("Not found");
     } catch (err) {
       return res.status(500).send(error.message);
-    }
+      }
     
 }
 

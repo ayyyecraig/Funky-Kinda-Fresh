@@ -83,9 +83,12 @@ fermentationNation */
 
 /* home */
 .home{
-  display: grid;
+   display: grid;
    row-gap: 5px;
+   min-width: 550px;
    flex-wrap: wrap;
+   overflow: auto;
+  
 
   
 }
@@ -115,7 +118,8 @@ fermentationNation */
 }
 
 .video{
-  max-width: 772px;
+   max-width: 772px;
+   max-height: 100vh;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -127,47 +131,71 @@ fermentationNation */
 }
 
 .p1{
+  display: grid;
   position: relative;
   left: 3px;
   top: -331px;
   max-width: 408px;
+  max-height: 100vh;
+  width: 100%;
+  height:auto;
 }
 
 .p2{
+  display: grid;
   position: relative;
   left: -573px;
   top: -417px;
   max-width: 316px;
+  max-height: 100vh;
+  width: 100%;
+  height:auto;
 }
 
 
 .p3{
+  display: grid;
   position: relative;
   left: 288px;
   top: -510px;
-  max-width: 476px;;
+  max-width: 476px;
+  max-height: 100vh;
+  width: 100%;
+  height:auto;
 }
 
 .p4{
+  display: grid;
   position: relative;
   left: -174px;
   top: -518px;
   max-width: 439px;
+  max-height: 100vh;
+  width: 100%;
+  height:auto;
 }
 
 .p5{
+  display: grid;
   position: relative;
   left: 1291px;
   top: -1030px;
-  max-width: 528px
+  max-width: 528px;
+  max-height: 100vh;
+  width: 100%;
+  height:auto;
 }
 
 
 .p6{
+  display: grid;
   position: relative;
   left: -216px;
     top: -1508px;
     max-width: 294px;
+    max-height: 100vh;
+    width: 100%;
+    height:auto;
 
 }
 /* add your own ferment recipe/ update */
