@@ -20,7 +20,8 @@ const main = async () => {
         description: 'Toasted Rice bran cooled and mixed with salted water to create amazing pickles of any kind! Adding a bit of comb adds a great depth of flavor!'
         
 
-     }
+     },
+     
  ]
  await Ferment.insertMany(ferments)
  console.log('Sizzle')

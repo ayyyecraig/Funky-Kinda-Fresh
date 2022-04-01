@@ -92,10 +92,11 @@ fermentationNation */
 .social-icon{
   position: relative;
   top: 5px;
-  left:850px;
+  left:800px;
   max-width: fit-content;
   max-height:min-content;
-  color:#caa577
+  color:#caa577;
+  font-size: 20px;
 }
 
 .video-responsive {
@@ -185,7 +186,7 @@ fermentationNation */
   display: grid;
   height: 100vh;
   grid-template-columns: 200px;
-  gap: 20px;
+  gap: 130px;
   justify-content: space-around;
   overflow: auto;
 
