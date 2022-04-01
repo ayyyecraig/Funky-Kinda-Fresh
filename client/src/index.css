@@ -8,10 +8,6 @@
   color:#caa577;
 }
 
-@media only screen {
-  min-width: 767px;
-  -webkit-device-pixel-ratio: 3;
-}
 
 /* navBar */
 .navbar{
@@ -282,4 +278,44 @@ input{
 }
 /* reviews page Recipe feedback */
 
+.guide{
+  position: relative;
+  top: 187px;
+  left: 606px;
+}s
+
+.baker{
+  position: relative;
+  top: -2px;
+  left: -374px;
+}
+
+.percent{
+  position: relative;
+  top: -10px;
+  left: -223px;
+
+}
+
+.total{
+  position: relative;
+  top: -56px;
+  left: -9px;
+  text-decoration: underline;
+  margin-bottom: -20px;
+}
+
+.flour{
+  position: relative;
+  top: -44px;
+  left: 14px;
+}
+
+
+.one{
+  position: relative;
+  top: -95px;
+  left: 218px;
+  font-size: 25px;
+}
 

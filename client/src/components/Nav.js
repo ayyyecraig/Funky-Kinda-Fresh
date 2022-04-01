@@ -11,6 +11,7 @@ const Nav = () => {
               <NavLink to="/FermNat">Fermentation Nation</NavLink>
               <NavLink to="/YourFerm">Add Recipe</NavLink>
               <NavLink to="/RecipeFeed">Recipe FeedBack</NavLink>
+              <NavLink to="/Calculate">Calculate Percentages</NavLink>
         </div>
      </header>
     )
