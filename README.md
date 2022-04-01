@@ -5,6 +5,7 @@
 
  ![Sourdough Starter](https://2.bp.blogspot.com/-VnPymqeH3IE/Vo4AwiapjVI/AAAAAAAAKJQ/7QiP65mrvPgbS8q2gvdHCgZSy3noqb77ACPcB/s1600/1.jpg)
 
+![Imgur](https://i.imgur.com/pWckdl0.png)
 ## Description
 The anaerobic breakdown of molecules has been perfected for more than 10,000 years; in recent years it has ***bubbled*** up into Michelin starred kitchens like [Noma](https://noma.dk/), as well as the homes filled during the covid-19 lockdowns. Being such delicate enviroments; they can easily harbor horrific smells, or give you a new spin on life (in some circles believed to treat cancer). That is where Funky Kinda Fresh comes in to assure your peace of mind and success in the amazing depths of fermentation. 
 
@@ -30,7 +31,7 @@ I will be starting from the backend, building a server making sure I have someth
 * Grid or flexbox to display photos of active fermentations
 
 
-
+![]
 
 
  ### Trello Board && ERD 

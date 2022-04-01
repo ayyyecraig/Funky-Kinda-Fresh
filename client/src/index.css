@@ -8,6 +8,10 @@
   color:#caa577;
 }
 
+@media only screen {
+  min-width: 767px;
+  -webkit-device-pixel-ratio: 3;
+}
 
 /* navBar */
 .navbar{
@@ -256,7 +260,7 @@ input{
 }
 
 .description{
-  height:400px;
+  height:200px;
  
 }
 
