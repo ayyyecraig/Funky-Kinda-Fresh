@@ -28,22 +28,22 @@ const handleSolution = () => {
     return( <div className="container">
     <div className="Simple">
       <input type="number" placeholder="Your Contents Weight" 
-           name='num1'
+           name='num1' className="contents"
   
            value={num1}
            onChange={(e) => handleNum(e, 'num1')}
            />
-      <span>*</span>
+      <span className="times">*</span>
 
       <input 
       type="number"     placeholder="Percentage converted to decimal"
-      name='num2'
+      name='num2' className="decimal"
   
       value={num2}
       
       onChange={(e) => handleNum(e, 'num2')}
        />
-      <button onClick={()=> handleSolution()}>=</button>
+      <button onClick={()=> handleSolution()} className="equal">=</button>
     </div>
     <h3 className="results">{result}</h3>
     <div className="guide">

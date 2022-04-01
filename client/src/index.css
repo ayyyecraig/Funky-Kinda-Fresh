@@ -84,8 +84,6 @@ fermentationNation */
 /* home */
 .home{
    display: grid;
-   row-gap: 5px;
-   min-width: 550px;
    flex-wrap: wrap;
    overflow: auto;
   
@@ -94,8 +92,8 @@ fermentationNation */
 }
 .social-icon{
   position: relative;
-  top: 5px;
-  left:800px;
+  top: 728px;
+  left:1194px;
   max-width: fit-content;
   max-height:min-content;
   color:#caa577;
@@ -118,84 +116,72 @@ fermentationNation */
 }
 
 .video{
-   max-width: 772px;
+   max-width: 574px;
    max-height: 100vh;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
     position: relative;
-    top: 19px;
-    left: 106px;
+    top: 47px;
+    left: 78px;
 
 }
 
 .p1{
-  display: grid;
+ 
   position: relative;
-  left: 3px;
-  top: -331px;
-  max-width: 408px;
-  max-height: 100vh;
-  width: 100%;
-  height:auto;
+  left: -59px;
+  top: -170px;
+  max-width: 332px;
+
 }
 
 .p2{
-  display: grid;
+ 
   position: relative;
-  left: -573px;
-  top: -417px;
-  max-width: 316px;
-  max-height: 100vh;
-  width: 100%;
-  height:auto;
+  left: -558px;
+  top: -387px;
+  max-width: 263px;
+;
+
 }
 
 
 .p3{
-  display: grid;
+
   position: relative;
   left: 288px;
   top: -510px;
-  max-width: 476px;
-  max-height: 100vh;
-  width: 100%;
-  height:auto;
+  max-width: 380px;
 }
 
 .p4{
-  display: grid;
+  
   position: relative;
-  left: -174px;
-  top: -518px;
-  max-width: 439px;
-  max-height: 100vh;
-  width: 100%;
-  height:auto;
+  left: -50px;
+  top: -386px;
+  max-width: 314px;
+ 
 }
 
 .p5{
-  display: grid;
+ 
   position: relative;
-  left: 1291px;
-  top: -1030px;
-  max-width: 528px;
-  max-height: 100vh;
-  width: 100%;
-  height:auto;
+  left: 1066px;
+  top: -792px;
+  max-width: 381px;
+  
 }
 
 
 .p6{
-  display: grid;
-  position: relative;
-  left: -216px;
-    top: -1508px;
-    max-width: 294px;
-    max-height: 100vh;
-    width: 100%;
-    height:auto;
+  
+    position: relative;
+    left: -253px;
+    top: -1205px;
+    max-width: 258px;
+ 
 
 }
 /* add your own ferment recipe/ update */
@@ -280,8 +266,8 @@ input{
 
 .guide{
   position: relative;
-  top: 187px;
-  left: 606px;
+  top: 34px;
+  left: 231px;
 }s
 
 .baker{
@@ -319,3 +305,40 @@ input{
   font-size: 25px;
 }
 
+.Simple{
+  display:grid;
+}
+
+.contents{
+  position: relative;
+  left: 204px;
+  top: 17px;
+  max-width: fit-content;
+}
+
+.decimal{
+  position: relative;
+  left:201px;
+  top: 13px;
+  max-width: fit-content;
+}
+
+.equal{
+  position: relative;
+  left: 373px;
+  top: -47px;
+  max-width: fit-content;
+}
+
+.times{
+  font-size: 30px;
+  position: relative;
+  top: 28px;
+  left: 267px;
+}
+
+.results{
+  position: relative;
+  left: 453px;
+  top:-85px;
+}

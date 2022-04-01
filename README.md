@@ -15,8 +15,8 @@ The anaerobic breakdown of molecules has been perfected for more than 10,000 yea
 
 ## Features
 ### Lets easily calculate and store any data of your ferments to keep a running diary of all the types of Sourdoughs you've created
-- Need a percentage for your lacto ferment? We have you there. Quickly look into the different methods of fermentation to get your perfect salt brine ratio!
-- Calculate how much you should feed your sourdough or injera starter! Give us details on the flour, the smells plus notes of flavor, and the end product!-- use this feature for any project ! Used salmon instead of makeral for garum ? How difficult was it to clarify ? You can look back on your journey and how you incorporated them into fantastic dishes.
+- Calculate the hydration you'll need for a perfect loaf of bread! 
+- Give us details on the flour, the smells plus notes of flavor, and the end product!-- use this feature for any project ! Used salmon instead of makeral for garum ? How difficult was it to clarify ? You can look back on your journey and how you incorporated them into fantastic dishes.
 ----
 ### Lets just take a look at some simple Vinegars or any ferment
 - Get quick descriptions, processes, and recipe percentages.
@@ -36,7 +36,7 @@ I will be starting from the backend, building a server making sure I have someth
 
 
 ### Future Projects
-* Adding a calculator for any percentages needed
+* Adding a calculator specifically for SourDough Hydration
 
 
 
